@@ -1,0 +1,31 @@
+{
+  "name": "Python 3.10",
+
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "nikolaik/python-nodejs:python3.10-nodejs19",
+
+  // Set *default* container specific settings.json values on container create.
+  "settings": {},
+
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "formulahendry.code-runner",
+    "KevinRose.vsc-python-indent",
+    "libaoxi.vscode-leetcode",
+    "mosapride.zenkaku",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "oderwat.indent-rainbow",
+    "PKief.material-icon-theme",
+    "shardulm94.trailing-spaces",
+    "streetsidesoftware.code-spell-checker",
+    "usernamehw.errorlens"
+  ]
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "pip3 install -r requirements.txt"
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
